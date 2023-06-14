@@ -1,5 +1,5 @@
 import React from 'react'
-import {   IoEllipsisHorizontalCircle,IoShirtOutline } from "react-icons/io5";
+import {   IoEllipsisHorizontalCircle,IoShirtOutline,IoMenu } from "react-icons/io5";
 import { BsPlug } from "react-icons/bs";
 import { MdOutlineChair ,MdOutlineGroupWork} from "react-icons/md";
 import { CgMore } from "react-icons/cg";
@@ -7,7 +7,8 @@ import { TbShoe } from "react-icons/tb";
 
 const Categories = () => {
   return (
-    <div className='bg-white p-3 flex text-slate-900 mt-1 '>
+        <section>
+    <div className='bg-white p-3 flex text-slate-900 mt-1 md:hidden'>
 
         <section className='flex flex-col items-center  w-[16.6%]'>
        {/* <li className='list-none text-2xl'>  <IoEllipsisHorizontalCircle/></li> */}
@@ -43,6 +44,23 @@ const Categories = () => {
 
 
     </div>
+
+
+    <div className=' hidden bg-orange-800 text-gray-200 font-medium px-4 py-3  md:block  '>
+        <nav className='flex justify-between'>
+        <a className='flex items-center'>All Categories   <IoMenu className='ml-1'/></a>
+              
+                <a>Clothes</a>
+                <a>Shoes</a>
+                <a>Electronics</a>
+                <a>Furniture</a>
+                <a>Other Categories</a>
+        </nav>
+
+
+        </div>
+
+    </section>
   )
 }
 
