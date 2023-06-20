@@ -23,7 +23,7 @@ const Nav = () => {
       <section>
         <input
           type="search"
-          className="border-2 w-full mt-3 rounded-md px-10  py-1 outline-none"
+          className="text-xs border-2 w-full mt-3 rounded-md px-2  py-1 outline-none md:text-[1.2rem] md:px-10"
           placeholder="Search products, brands and categories "
         />
       </section>

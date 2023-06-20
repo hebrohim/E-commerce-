@@ -1,9 +1,8 @@
 import axios from "axios";
 import { React, useState, useEffect } from "react";
-import Nav from "./Components/Nav";
 import Categories from "./Components/Categories";
-
-
+import Hero from "./Components/Hero";
+import Nav from "./Components/MobileNavBar";
 
 const baseURL = "https://api.escuelajs.co/api/v1/products";
 
@@ -18,11 +17,10 @@ const App = () => {
 
   return (
     <div>
+      <Nav />
 
-<Nav/>
-
-<Categories/>
- 
+      <Categories />
+      <Hero />
     </div>
   );
 };
