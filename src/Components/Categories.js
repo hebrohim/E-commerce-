@@ -8,7 +8,7 @@ import { TbShoe } from "react-icons/tb";
 const Categories = () => {
   return (
         <section>
-    <div className='bg-red-600 p-3 flex text-slate-900 mt-1  md:hidden'>
+    <div className='bg-white p-3 flex text-slate-900 mt-1  md:hidden'>
 
         <section className='flex flex-col items-center  w-[16.6%]'>
        {/* <li className='list-none text-2xl'>  <IoEllipsisHorizontalCircle/></li> */}

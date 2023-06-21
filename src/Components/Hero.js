@@ -6,9 +6,9 @@ import { TbShoe } from "react-icons/tb";
 import Woman from "../images/Man.png"
 const Hero = () => {
   return (
-    <div className='font-heading hero h-[80vh] flex justify-between px-3 invisible md:visible '>
+    <div className='font-heading hero h-[80vh]  justify-between px-3 hidden md:flex '>
 
-      <div className='mt-24 text-4xl w-1/2 lg:text-5xl lg:ml-20'>
+      <div className='mt-24 text-4xl w-1/2 lg:text-5xl lg:ml-20 lg:mt-32'>
 <h1 className='mb-2  ' >one-stop</h1>
 
 <span className='text-amber-500 font-extrabold tracking-wide'> online shopping</span>  
